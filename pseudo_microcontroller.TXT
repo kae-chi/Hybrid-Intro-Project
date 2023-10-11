@@ -1,1 +1,3 @@
 this is a file for the pseudocode for a microcontroller, it will later be converted into c++ code.
+
+https://en.wikipedia.org/wiki/Arduino_Nano
