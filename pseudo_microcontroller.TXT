@@ -1,3 +1,14 @@
 this is a file for the pseudocode for a microcontroller, it will later be converted into c++ code.
 
+
+General Wikepedia Article Arduino Nanos
+
 https://en.wikipedia.org/wiki/Arduino_Nano
+
+Arduino Intro Article
+
+https://docs.arduino.cc/learn/starting-guide/getting-started-arduino#a-typical-workflow 
+
+Schematics 
+
+https://learn.sparkfun.com/tutorials/how-to-read-a-schematic 
