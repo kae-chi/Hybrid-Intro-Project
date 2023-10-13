@@ -1,5 +1,7 @@
 //The goal of of the program is for the arduino to accept the
 
+//Free RTOS (Real time Operating System)
+
 
 /*Actuate two separate relays (we can try parallel processing?) 
 >> for the solenoid and the ematch separately 
@@ -12,25 +14,38 @@
 
 //Executing Actual Script 
 
-//From the relay, set the proper pins for the solenoid valve
-    //this should be an output value 
-    // all this does is send a signal to enable the solenoid 
-//From the realy, set the propoer pins for the E-Match 
-    //this should be set as an output
-    // all this does is send signal for the E-Match to go off 
+
+//things to look up: Free RTOS 
 
 
-//Load Cell 
-    //use a while loop while the Loadcell is still going, to collect as much data as
-    //possible, the interation will be determined later. 
+// actual pseudocode 
 
-    //for now, the data will be on a txt file. However, I'm sure there's another way to 
-    //parse the text file to be in an excel file 
+//This happens upon user input 
 
-    // once the data is recorded and the file is created, it will go from the analog input to 
-    //the sd card reader and can be extracted. 
+//digitalwrite -- sets the pins  
+
+    //digital pin out - binary values 
+    //analog-- number of volts 
 
 
+//while loop >> true 
+
+    //load cell is collecting data continously throughout the span 
+
+    //if userinput >> true
+
+        //sollenoid 
+            // it should either be True(firing) or False(not Fire) 
+        //start firing 
+        //stop firing once three real seconds elapsed after  initial user input 
+
+
+
+        //E-Match 
+            //should fire a given amount after the sollenoid opens 
+            //PLZ FIRE THE EMATCH LOL 
+
+    //for now, the data will be on a CSV file.  
 
 
 
