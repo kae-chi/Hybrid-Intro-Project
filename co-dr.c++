@@ -28,9 +28,11 @@
     //analog-- number of volts 
 
 
+//the true condition for the while loop is when we start the proccess. 
+
 //while loop >> true 
 
-    //load cell is collecting data continously throughout the span 
+    //load cell is collecting data continously throughout the span, this can be append to CSV File 
 
     //if userinput >> true
 
@@ -45,7 +47,7 @@
             //should fire a given amount after the sollenoid opens 
             //PLZ FIRE THE EMATCH LOL 
 
-    //for now, the data will be on a CSV file.  
+    //when while loop is done, the data will be on a CSV file.  
 
 
 
